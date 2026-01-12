@@ -150,6 +150,31 @@ print("multiplying two arrays using +  ",arr*x)
 print("using np.multiply()  ",np.multiply(x,arr))
 
 
+x = arr / 3
+
+
+print("X= " ,x)
+print()
+print("NP.divide x",np.divide(x,3))
+print()
+
+print("divideing two arrays using +  ",arr/x)
+print("using np.divide()  ",np.divide(x,arr))
+
+x = arr % 3
+
+
+print("X= " ,x)
+print()
+print("NP.mod x",np.mod(x,3))
+print()
+
+print("moding two arrays using +  ",arr%x)
+print("using np.mod()  ",np.mod(x,arr))
+
+
+
+
 
 
 
