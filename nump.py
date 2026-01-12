@@ -162,7 +162,8 @@ print("divideing two arrays using +  ",arr/x)
 print("using np.divide()  ",np.divide(x,arr))
 
 x = arr % 3
-
+x = np.arange(6)
+x+=1
 
 print("X= " ,x)
 print()
@@ -172,6 +173,18 @@ print()
 print("moding two arrays using +  ",arr%x)
 print("using np.mod()  ",np.mod(x,arr))
 
+
+
+x = arr ** 3
+
+
+print("X= " ,x)
+print()
+print("NP.power x",np.power(x,3))
+print()
+
+print("powering two arrays using +  ",arr**x)
+print("using np.power()  ",np.power(x,arr))
 
 
 
