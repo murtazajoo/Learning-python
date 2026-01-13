@@ -29,46 +29,62 @@ print("sin values",np.sin(arr))
 print("cos values",np.cos(arr))
 print("tan values",np.tan(arr))
 
+#----------------------------------------------------------------------------------
+# STATISTICAL FUNCTIONS
+
 
 #sum of elements of array 
 print("sum of ele of arr",np.sum(arr))
-
+#output: sum of ele of arr 10
 
 #mean of elements of array 
 print("mean  of arr",np.mean(arr))
-
+#output:mean  of arr 2.0
 
 #median of elements of array 
 print("median of arr",np.median(arr))
+#output: median of arr 2.0
 
 #stanndard deviation of elements of array 
 print("stanndard deviation of arr",np.std(arr))
-
+#output: stanndard deviation of arr 1.4142135623730951
 
 #----------------------------------------------------------------------------------
-# LINEAR ALGEBRA FUNCTION
+# LINEAR ALGEBRA FUNCTIONS
 
 arr1 = np.array([[1,2],[3,4]])
 arr2 = np.array([[6,7],[5,9]])
 
 #dot product of two matrix
-print(np.dot(arr1,arr2))
+print("dot prduct of arr1 . aar2 = ",np.dot(arr1,arr2))
 # output
 # [[16 25]
 #  [38 57]]
 
 
 #inverse of a matrix
-print(np.linalg.inv(arr1))
+print("inverse of arr1 " , np.linalg.inv(arr1))
 #output 
 # [[-2.   1. ]
 #  [ 1.5 -0.5]]
 
 
-#determinant
-print(np.linalg.det(arr2))
+#determinant of a matrix
+print("determinant of arr2 = ",np.linalg.det(arr2))
 #output 
 #18.999999999999996
 
 
+#----------------------------------------------------------------------------------
 
+arr = np.array([[1,2],[3,4]])
+
+#covert to 1D
+
+print(arr.flatten())
+#ouput: [1 2 3 4]
+
+
+#combine two arrays
+print(np.concatenate((arr1,arr2)))
+#output: 
