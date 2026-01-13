@@ -35,8 +35,18 @@ print("sum of ele of arr",np.sum(arr))
 
 
 #mean of elements of array 
-print("mean of ele of arr",np.mean(arr))
+print("mean  of arr",np.mean(arr))
 
 
 #median of elements of array 
-print("median of ele of arr",np.median(arr))
+print("median of arr",np.median(arr))
+
+#stanndard deviation of elements of array 
+print("stanndard deviation of arr",np.std(arr))
+
+
+#----------------------------------------------------------------------------------
+# LINEAR ALGEBRA FUNCTION
+
+arr1 = np.array([[1,2],[3,4]])
+arr2 = np.array([[6,7],[5,9]])
