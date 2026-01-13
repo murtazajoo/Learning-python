@@ -50,3 +50,25 @@ print("stanndard deviation of arr",np.std(arr))
 
 arr1 = np.array([[1,2],[3,4]])
 arr2 = np.array([[6,7],[5,9]])
+
+#dot product of two matrix
+print(np.dot(arr1,arr2))
+# output
+# [[16 25]
+#  [38 57]]
+
+
+#inverse of a matrix
+print(np.linalg.inv(arr1))
+#output 
+# [[-2.   1. ]
+#  [ 1.5 -0.5]]
+
+
+#determinant
+print(np.linalg.det(arr2))
+#output 
+#18.999999999999996
+
+
+
