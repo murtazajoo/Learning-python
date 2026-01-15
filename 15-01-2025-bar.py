@@ -21,7 +21,7 @@ c=["teal","purple","red","green"]
 ec = ["pink","yellow","purple","teal"]
 
 #here we pass the color as list  
-plt.bar(x, z,color=c,edgecolor=ec,linewidth=1.3,width=0.6)
+plt.bar(x, z,color=c,edgecolor=ec,linewidth=1.3,width=0.6,)
 
 #used to set the title of the graph 
 plt.title("Bar Chart")
